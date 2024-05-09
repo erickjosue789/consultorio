@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultorio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="title-container">
+            <div class="logo">
+                <img src="https://png.pngtree.com/png-clipart/20221003/original/pngtree-medical-logo-png-image_8653959.png" alt="Logo del Consultorio">
+            </div>
+            <h1>Consultorio de doctor</h1>
+            <div class="redes">
+                <ul>
+                    <li><a href="https://instagram.com">Instagram</a></li>
+                    <li><a href="https://x.com">Twitter</a></li>
+                    <li><a href="https://facebook.com">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor-carrusel">
+        <div class="carrusel">
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1551601651-05a4836d25c2?q=80&w=3014&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1571772996211-2f02c9727629?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1585139786570-905b59b4fddf?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1631217871099-88310a909a32?q=80&w=3163&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></div>
+        </div>
+        <div class="indicadores">
+            <button class="indicador" data-slide="0"></button>
+            <button class="indicador" data-slide="1"></button>
+            <button class="indicador" data-slide="2"></button>
+            <button class="indicador" data-slide="3"></button>
+            <button class="indicador" data-slide="4"></button>
+        </div>
+    </div>
+
+    <div class="quienes-somos" id="nosotros">
+        <div class="quienes-somos-imagen">
+            <img src="https://images.unsplash.com/photo-1551601651-2a8555f1a136?q=80&w=2947&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen del equipo médico">
+        </div>
+        <div class="quienes-somos-texto">
+            <h2>Quiénes Somos</h2>
+            <p>
+                Somos un equipo dedicado de profesionales de la salud comprometidos con brindar atención médica de la más alta calidad. Nuestro consultorio está equipado con la tecnología más avanzada para garantizar que cada paciente reciba el mejor tratamiento posible.
+            </p>
+            <p>
+                Contamos con especialistas en diversas áreas de la medicina, asegurando un enfoque integral y personalizado para cada paciente. Nuestra misión es mejorar la salud y bienestar de nuestra comunidad a través de servicios médicos excepcionales y atención personalizada.
+            </p>
+        </div>
+    </div>
+
+    <div class="tabla-servicios" id="servicios">
+        <h2>Servicios Médicos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Servicio</th>
+                    <th>Descripción</th>
+                    <th>Costo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Consulta General</td>
+                    <td>Examen físico completo y evaluación de salud general.</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Pediatría</td>
+                    <td>Cuidado y control de la salud de tus niños.</td>
+                    <td>$60</td>
+                </tr>
+                <tr>
+                    <td>Cardiología</td>
+                    <td>Evaluación y tratamiento de enfermedades cardíacas.</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>Dermatología</td>
+                    <td>Tratamientos para la piel, cabello y uñas.</td>
+                    <td>$90</td>
+                </tr>
+                <tr>
+                    <td>Odontología</td>
+                    <td>Servicios odontológicos completos, incluyendo limpieza y ortodoncia.</td>
+                    <td>$80</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Galería de Fotos -->
+    <div class="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="contenedor-imagenes">
+            <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?q=80&w=2952&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descripción foto 1">
+            <img src="https://images.unsplash.com/photo-1576091358783-a212ec293ff3?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descripción foto 2">
+            <img src="https://images.unsplash.com/photo-1631815590016-ebce183022ce?q=80&w=2972&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descripción foto 3">
+            <img src="https://images.unsplash.com/photo-1574706473454-a3b3da3fc5b5?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Descripción foto 4">
+            <!-- Añade más imágenes según sea necesario -->
+        </div>
+    </div>
+
+    <!-- Contacto -->
+    <div class="seccion-contacto" id="contacto">
+        <h2>Contacta con Nosotros</h2>
+        <form action="submitForm.php" method="POST" class="formulario-contacto">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+    
+            <button type="submit">Enviar Mensaje</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-contenido">
+            <p>© 2024 Consultorio Médico. Todos los derechos reservados.</p>
+            <p>Síguenos en nuestras redes sociales: <a href="#">Instagram</a>, <a href="#">Facebook</a>, <a href="#">Twitter</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
